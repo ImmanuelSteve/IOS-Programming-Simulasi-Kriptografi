@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BB55F8C181D076B002DD38A /* DisplayDekripsiCaesarCipherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB55F8B181D076B002DD38A /* DisplayDekripsiCaesarCipherViewController.m */; };
+		5BB55F8F181D81C3002DD38A /* DisplayEnkripsiRsaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB55F8E181D81C3002DD38A /* DisplayEnkripsiRsaViewController.m */; };
+		5BB55F92181D9831002DD38A /* DisplayDekripsiRsaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB55F91181D9830002DD38A /* DisplayDekripsiRsaViewController.m */; };
+		B20D57F4182529AF006306C2 /* vigeneretabel.png in Resources */ = {isa = PBXBuildFile; fileRef = B20D57F3182529AF006306C2 /* vigeneretabel.png */; };
+		B20D57F7182548EB006306C2 /* DisplayEnkripsiVigenereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20D57F6182548EB006306C2 /* DisplayEnkripsiVigenereViewController.m */; };
+		B20D57FA18255BFB006306C2 /* DisplayDekripsiVigenereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20D57F918255BFA006306C2 /* DisplayDekripsiVigenereViewController.m */; };
+		B20D57FC182566DA006306C2 /* bantuan.plist in Resources */ = {isa = PBXBuildFile; fileRef = B20D57FB182566DA006306C2 /* bantuan.plist */; };
+		B20D57FF182570A0006306C2 /* BantuanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20D57FE182570A0006306C2 /* BantuanViewController.m */; };
+		B20D580218257482006306C2 /* DetailBantuanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20D580118257482006306C2 /* DetailBantuanViewController.m */; };
+		B278CBCE173EFD8000CD6692 /* SolusiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B278CBCD173EFD8000CD6692 /* SolusiCell.m */; };
+		B278CBD1173EFED100CD6692 /* DetailSolusiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B278CBD0173EFED100CD6692 /* DetailSolusiViewController.m */; };
+		B29BBAF5173FCCA500B7889F /* facebook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B29BBAF4173FCCA500B7889F /* facebook.jpg */; };
+		B29BBAF8173FCD5000B7889F /* TentangKamiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BBAF7173FCD5000B7889F /* TentangKamiViewController.m */; };
+		B29BBAFB173FCE1D00B7889F /* TentangWebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BBAFA173FCE1D00B7889F /* TentangWebsiteViewController.m */; };
+		B2BAE3171825DCFF009BB272 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B2BAE3161825DCFF009BB272 /* Default.png */; };
+		B2BAE31B1825DE01009BB272 /* crypto.png in Resources */ = {isa = PBXBuildFile; fileRef = B2BAE31A1825DE01009BB272 /* crypto.png */; };
+		B2BAE31D1825DEBE009BB272 /* logocrypto.png in Resources */ = {isa = PBXBuildFile; fileRef = B2BAE31C1825DEBE009BB272 /* logocrypto.png */; };
+		D90A89A117FE6C3100CF19DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A89A017FE6C3100CF19DB /* UIKit.framework */; };
+		D90A89A317FE6C3100CF19DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A89A217FE6C3100CF19DB /* Foundation.framework */; };
+		D90A89A517FE6C3100CF19DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A89A417FE6C3100CF19DB /* CoreGraphics.framework */; };
+		D90A89AB17FE6C3100CF19DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D90A89A917FE6C3100CF19DB /* InfoPlist.strings */; };
+		D90A89AD17FE6C3100CF19DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D90A89AC17FE6C3100CF19DB /* main.m */; };
+		D90A89B117FE6C3100CF19DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90A89B017FE6C3100CF19DB /* AppDelegate.m */; };
+		D90A89B517FE6C3100CF19DB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A89B417FE6C3100CF19DB /* Default@2x.png */; };
+		D90A89B717FE6C3100CF19DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A89B617FE6C3100CF19DB /* Default-568h@2x.png */; };
+		D90A89BA17FE6C3100CF19DB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90A89B817FE6C3100CF19DB /* MainStoryboard.storyboard */; };
+		D90A89BD17FE6C3100CF19DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90A89BC17FE6C3100CF19DB /* ViewController.m */; };
+		D90A89CD17FE6D6C00CF19DB /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D90A89CC17FE6D6C00CF19DB /* TPKeyboardAvoidingScrollView.m */; };
+		D90A89D617FE830000CF19DB /* EnkripsiCaesarCipherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90A89D517FE830000CF19DB /* EnkripsiCaesarCipherViewController.m */; };
+		D90A89D917FE875400CF19DB /* EnkripsiVigenereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90A89D817FE875400CF19DB /* EnkripsiVigenereViewController.m */; };
+		D90A89DF17FE899600CF19DB /* EnkripsiRsaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90A89DE17FE899600CF19DB /* EnkripsiRsaViewController.m */; };
+		D90A89E217FE8BCB00CF19DB /* DekripsiCaesarCipherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90A89E117FE8BCB00CF19DB /* DekripsiCaesarCipherViewController.m */; };
+		D90A89E517FE8CF400CF19DB /* DekripsiVigenereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90A89E417FE8CF400CF19DB /* DekripsiVigenereViewController.m */; };
+		D90A89E817FE8D6900CF19DB /* DekripsiRsaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90A89E717FE8D6900CF19DB /* DekripsiRsaViewController.m */; };
+		D90A89EA17FE967300CF19DB /* Photo on 10-4-13 at 1.19 PM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D90A89E917FE967300CF19DB /* Photo on 10-4-13 at 1.19 PM.jpg */; };
+		D9DBA736180FB05600EC2046 /* DisplayEnkripsiCaesarCipherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DBA735180FB05600EC2046 /* DisplayEnkripsiCaesarCipherViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BB55F8A181D076A002DD38A /* DisplayDekripsiCaesarCipherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayDekripsiCaesarCipherViewController.h; path = ../DisplayDekripsiCaesarCipherViewController.h; sourceTree = "<group>"; };
+		5BB55F8B181D076B002DD38A /* DisplayDekripsiCaesarCipherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayDekripsiCaesarCipherViewController.m; path = ../DisplayDekripsiCaesarCipherViewController.m; sourceTree = "<group>"; };
+		5BB55F8D181D81C2002DD38A /* DisplayEnkripsiRsaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayEnkripsiRsaViewController.h; path = ../DisplayEnkripsiRsaViewController.h; sourceTree = "<group>"; };
+		5BB55F8E181D81C3002DD38A /* DisplayEnkripsiRsaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayEnkripsiRsaViewController.m; path = ../DisplayEnkripsiRsaViewController.m; sourceTree = "<group>"; };
+		5BB55F90181D9830002DD38A /* DisplayDekripsiRsaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayDekripsiRsaViewController.h; path = ../DisplayDekripsiRsaViewController.h; sourceTree = "<group>"; };
+		5BB55F91181D9830002DD38A /* DisplayDekripsiRsaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayDekripsiRsaViewController.m; path = ../DisplayDekripsiRsaViewController.m; sourceTree = "<group>"; };
+		B20D57F3182529AF006306C2 /* vigeneretabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vigeneretabel.png; sourceTree = "<group>"; };
+		B20D57F5182548EB006306C2 /* DisplayEnkripsiVigenereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayEnkripsiVigenereViewController.h; path = ../DisplayEnkripsiVigenereViewController.h; sourceTree = "<group>"; };
+		B20D57F6182548EB006306C2 /* DisplayEnkripsiVigenereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayEnkripsiVigenereViewController.m; path = ../DisplayEnkripsiVigenereViewController.m; sourceTree = "<group>"; };
+		B20D57F818255BFA006306C2 /* DisplayDekripsiVigenereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayDekripsiVigenereViewController.h; sourceTree = "<group>"; };
+		B20D57F918255BFA006306C2 /* DisplayDekripsiVigenereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayDekripsiVigenereViewController.m; sourceTree = "<group>"; };
+		B20D57FB182566DA006306C2 /* bantuan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bantuan.plist; sourceTree = "<group>"; };
+		B20D57FD182570A0006306C2 /* BantuanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BantuanViewController.h; sourceTree = "<group>"; };
+		B20D57FE182570A0006306C2 /* BantuanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BantuanViewController.m; sourceTree = "<group>"; };
+		B20D580018257481006306C2 /* DetailBantuanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailBantuanViewController.h; sourceTree = "<group>"; };
+		B20D580118257482006306C2 /* DetailBantuanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailBantuanViewController.m; sourceTree = "<group>"; };
+		B278CBCC173EFD8000CD6692 /* SolusiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolusiCell.h; sourceTree = "<group>"; };
+		B278CBCD173EFD8000CD6692 /* SolusiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolusiCell.m; sourceTree = "<group>"; };
+		B278CBCF173EFED100CD6692 /* DetailSolusiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailSolusiViewController.h; sourceTree = "<group>"; };
+		B278CBD0173EFED100CD6692 /* DetailSolusiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailSolusiViewController.m; sourceTree = "<group>"; };
+		B29BBAF4173FCCA500B7889F /* facebook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = facebook.jpg; sourceTree = "<group>"; };
+		B29BBAF6173FCD5000B7889F /* TentangKamiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TentangKamiViewController.h; path = ../TentangKamiViewController.h; sourceTree = "<group>"; };
+		B29BBAF7173FCD5000B7889F /* TentangKamiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TentangKamiViewController.m; path = ../TentangKamiViewController.m; sourceTree = "<group>"; };
+		B29BBAF9173FCE1D00B7889F /* TentangWebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TentangWebsiteViewController.h; path = ../TentangWebsiteViewController.h; sourceTree = "<group>"; };
+		B29BBAFA173FCE1D00B7889F /* TentangWebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TentangWebsiteViewController.m; path = ../TentangWebsiteViewController.m; sourceTree = "<group>"; };
+		B2BAE3161825DCFF009BB272 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		B2BAE31A1825DE01009BB272 /* crypto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crypto.png; path = ../crypto.png; sourceTree = "<group>"; };
+		B2BAE31C1825DEBE009BB272 /* logocrypto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logocrypto.png; path = ../logocrypto.png; sourceTree = "<group>"; };
+		D90A899C17FE6C3100CF19DB /* Simulasi Kriptografi 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simulasi Kriptografi 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90A89A017FE6C3100CF19DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D90A89A217FE6C3100CF19DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D90A89A417FE6C3100CF19DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D90A89A817FE6C3100CF19DB /* Simulasi Kriptografi 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simulasi Kriptografi 2-Info.plist"; sourceTree = "<group>"; };
+		D90A89AA17FE6C3100CF19DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D90A89AC17FE6C3100CF19DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D90A89AE17FE6C3100CF19DB /* Simulasi Kriptografi 2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simulasi Kriptografi 2-Prefix.pch"; sourceTree = "<group>"; };
+		D90A89AF17FE6C3100CF19DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D90A89B017FE6C3100CF19DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D90A89B417FE6C3100CF19DB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D90A89B617FE6C3100CF19DB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D90A89B917FE6C3100CF19DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D90A89BB17FE6C3100CF19DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D90A89BC17FE6C3100CF19DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D90A89CB17FE6D6C00CF19DB /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		D90A89CC17FE6D6C00CF19DB /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		D90A89D417FE830000CF19DB /* EnkripsiCaesarCipherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnkripsiCaesarCipherViewController.h; path = ../EnkripsiCaesarCipherViewController.h; sourceTree = "<group>"; };
+		D90A89D517FE830000CF19DB /* EnkripsiCaesarCipherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnkripsiCaesarCipherViewController.m; path = ../EnkripsiCaesarCipherViewController.m; sourceTree = "<group>"; };
+		D90A89D717FE875400CF19DB /* EnkripsiVigenereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnkripsiVigenereViewController.h; path = ../EnkripsiVigenereViewController.h; sourceTree = "<group>"; };
+		D90A89D817FE875400CF19DB /* EnkripsiVigenereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnkripsiVigenereViewController.m; path = ../EnkripsiVigenereViewController.m; sourceTree = "<group>"; };
+		D90A89DD17FE899600CF19DB /* EnkripsiRsaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnkripsiRsaViewController.h; path = ../EnkripsiRsaViewController.h; sourceTree = "<group>"; };
+		D90A89DE17FE899600CF19DB /* EnkripsiRsaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnkripsiRsaViewController.m; path = ../EnkripsiRsaViewController.m; sourceTree = "<group>"; };
+		D90A89E017FE8BCB00CF19DB /* DekripsiCaesarCipherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DekripsiCaesarCipherViewController.h; path = ../DekripsiCaesarCipherViewController.h; sourceTree = "<group>"; };
+		D90A89E117FE8BCB00CF19DB /* DekripsiCaesarCipherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DekripsiCaesarCipherViewController.m; path = ../DekripsiCaesarCipherViewController.m; sourceTree = "<group>"; };
+		D90A89E317FE8CF400CF19DB /* DekripsiVigenereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DekripsiVigenereViewController.h; path = ../DekripsiVigenereViewController.h; sourceTree = "<group>"; };
+		D90A89E417FE8CF400CF19DB /* DekripsiVigenereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DekripsiVigenereViewController.m; path = ../DekripsiVigenereViewController.m; sourceTree = "<group>"; };
+		D90A89E617FE8D6900CF19DB /* DekripsiRsaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DekripsiRsaViewController.h; path = ../DekripsiRsaViewController.h; sourceTree = "<group>"; };
+		D90A89E717FE8D6900CF19DB /* DekripsiRsaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DekripsiRsaViewController.m; path = ../DekripsiRsaViewController.m; sourceTree = "<group>"; };
+		D90A89E917FE967300CF19DB /* Photo on 10-4-13 at 1.19 PM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo on 10-4-13 at 1.19 PM.jpg"; sourceTree = "<group>"; };
+		D9DBA734180FB05600EC2046 /* DisplayEnkripsiCaesarCipherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayEnkripsiCaesarCipherViewController.h; path = ../DisplayEnkripsiCaesarCipherViewController.h; sourceTree = "<group>"; };
+		D9DBA735180FB05600EC2046 /* DisplayEnkripsiCaesarCipherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayEnkripsiCaesarCipherViewController.m; path = ../DisplayEnkripsiCaesarCipherViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90A899917FE6C3100CF19DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90A89A117FE6C3100CF19DB /* UIKit.framework in Frameworks */,
+				D90A89A317FE6C3100CF19DB /* Foundation.framework in Frameworks */,
+				D90A89A517FE6C3100CF19DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90A899117FE6C3100CF19DB = {
+			isa = PBXGroup;
+			children = (
+				D90A89A617FE6C3100CF19DB /* Simulasi Kriptografi 2 */,
+				D90A899F17FE6C3100CF19DB /* Frameworks */,
+				D90A899D17FE6C3100CF19DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D90A899D17FE6C3100CF19DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90A899C17FE6C3100CF19DB /* Simulasi Kriptografi 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90A899F17FE6C3100CF19DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90A89A017FE6C3100CF19DB /* UIKit.framework */,
+				D90A89A217FE6C3100CF19DB /* Foundation.framework */,
+				D90A89A417FE6C3100CF19DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90A89A617FE6C3100CF19DB /* Simulasi Kriptografi 2 */ = {
+			isa = PBXGroup;
+			children = (
+				D90A89CB17FE6D6C00CF19DB /* TPKeyboardAvoidingScrollView.h */,
+				D90A89CC17FE6D6C00CF19DB /* TPKeyboardAvoidingScrollView.m */,
+				D90A89D417FE830000CF19DB /* EnkripsiCaesarCipherViewController.h */,
+				D90A89D517FE830000CF19DB /* EnkripsiCaesarCipherViewController.m */,
+				D90A89E017FE8BCB00CF19DB /* DekripsiCaesarCipherViewController.h */,
+				D90A89E117FE8BCB00CF19DB /* DekripsiCaesarCipherViewController.m */,
+				D90A89D717FE875400CF19DB /* EnkripsiVigenereViewController.h */,
+				D90A89D817FE875400CF19DB /* EnkripsiVigenereViewController.m */,
+				D90A89E317FE8CF400CF19DB /* DekripsiVigenereViewController.h */,
+				D90A89E417FE8CF400CF19DB /* DekripsiVigenereViewController.m */,
+				D90A89DD17FE899600CF19DB /* EnkripsiRsaViewController.h */,
+				D90A89DE17FE899600CF19DB /* EnkripsiRsaViewController.m */,
+				D90A89E617FE8D6900CF19DB /* DekripsiRsaViewController.h */,
+				D90A89E717FE8D6900CF19DB /* DekripsiRsaViewController.m */,
+				B20D57FD182570A0006306C2 /* BantuanViewController.h */,
+				B20D57FE182570A0006306C2 /* BantuanViewController.m */,
+				B29BBAF6173FCD5000B7889F /* TentangKamiViewController.h */,
+				B29BBAF7173FCD5000B7889F /* TentangKamiViewController.m */,
+				D90A89AF17FE6C3100CF19DB /* AppDelegate.h */,
+				D90A89B017FE6C3100CF19DB /* AppDelegate.m */,
+				D90A89B817FE6C3100CF19DB /* MainStoryboard.storyboard */,
+				D90A89BB17FE6C3100CF19DB /* ViewController.h */,
+				D90A89BC17FE6C3100CF19DB /* ViewController.m */,
+				D90A89A717FE6C3100CF19DB /* Supporting Files */,
+			);
+			path = "Simulasi Kriptografi 2";
+			sourceTree = "<group>";
+		};
+		D90A89A717FE6C3100CF19DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20D57FB182566DA006306C2 /* bantuan.plist */,
+				B29BBAF4173FCCA500B7889F /* facebook.jpg */,
+				B278CBCC173EFD8000CD6692 /* SolusiCell.h */,
+				B278CBCD173EFD8000CD6692 /* SolusiCell.m */,
+				B278CBCF173EFED100CD6692 /* DetailSolusiViewController.h */,
+				B278CBD0173EFED100CD6692 /* DetailSolusiViewController.m */,
+				B20D580018257481006306C2 /* DetailBantuanViewController.h */,
+				B20D580118257482006306C2 /* DetailBantuanViewController.m */,
+				D9DBA734180FB05600EC2046 /* DisplayEnkripsiCaesarCipherViewController.h */,
+				D9DBA735180FB05600EC2046 /* DisplayEnkripsiCaesarCipherViewController.m */,
+				5BB55F8A181D076A002DD38A /* DisplayDekripsiCaesarCipherViewController.h */,
+				5BB55F8B181D076B002DD38A /* DisplayDekripsiCaesarCipherViewController.m */,
+				B20D57F5182548EB006306C2 /* DisplayEnkripsiVigenereViewController.h */,
+				B20D57F6182548EB006306C2 /* DisplayEnkripsiVigenereViewController.m */,
+				B20D57F818255BFA006306C2 /* DisplayDekripsiVigenereViewController.h */,
+				B20D57F918255BFA006306C2 /* DisplayDekripsiVigenereViewController.m */,
+				5BB55F8D181D81C2002DD38A /* DisplayEnkripsiRsaViewController.h */,
+				5BB55F8E181D81C3002DD38A /* DisplayEnkripsiRsaViewController.m */,
+				5BB55F90181D9830002DD38A /* DisplayDekripsiRsaViewController.h */,
+				5BB55F91181D9830002DD38A /* DisplayDekripsiRsaViewController.m */,
+				B29BBAF9173FCE1D00B7889F /* TentangWebsiteViewController.h */,
+				B29BBAFA173FCE1D00B7889F /* TentangWebsiteViewController.m */,
+				B2BAE31C1825DEBE009BB272 /* logocrypto.png */,
+				B2BAE31A1825DE01009BB272 /* crypto.png */,
+				B20D57F3182529AF006306C2 /* vigeneretabel.png */,
+				D90A89E917FE967300CF19DB /* Photo on 10-4-13 at 1.19 PM.jpg */,
+				D90A89A817FE6C3100CF19DB /* Simulasi Kriptografi 2-Info.plist */,
+				D90A89A917FE6C3100CF19DB /* InfoPlist.strings */,
+				D90A89AC17FE6C3100CF19DB /* main.m */,
+				D90A89AE17FE6C3100CF19DB /* Simulasi Kriptografi 2-Prefix.pch */,
+				B2BAE3161825DCFF009BB272 /* Default.png */,
+				D90A89B417FE6C3100CF19DB /* Default@2x.png */,
+				D90A89B617FE6C3100CF19DB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90A899B17FE6C3100CF19DB /* Simulasi Kriptografi 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90A89C017FE6C3100CF19DB /* Build configuration list for PBXNativeTarget "Simulasi Kriptografi 2" */;
+			buildPhases = (
+				D90A899817FE6C3100CF19DB /* Sources */,
+				D90A899917FE6C3100CF19DB /* Frameworks */,
+				D90A899A17FE6C3100CF19DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simulasi Kriptografi 2";
+			productName = "Simulasi Kriptografi 2";
+			productReference = D90A899C17FE6C3100CF19DB /* Simulasi Kriptografi 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90A899317FE6C3100CF19DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Steven Renaldo Antony (71110054)";
+			};
+			buildConfigurationList = D90A899617FE6C3100CF19DB /* Build configuration list for PBXProject "Simulasi Kriptografi 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D90A899117FE6C3100CF19DB;
+			productRefGroup = D90A899D17FE6C3100CF19DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90A899B17FE6C3100CF19DB /* Simulasi Kriptografi 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90A899A17FE6C3100CF19DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90A89AB17FE6C3100CF19DB /* InfoPlist.strings in Resources */,
+				D90A89B517FE6C3100CF19DB /* Default@2x.png in Resources */,
+				D90A89B717FE6C3100CF19DB /* Default-568h@2x.png in Resources */,
+				D90A89BA17FE6C3100CF19DB /* MainStoryboard.storyboard in Resources */,
+				D90A89EA17FE967300CF19DB /* Photo on 10-4-13 at 1.19 PM.jpg in Resources */,
+				B20D57F4182529AF006306C2 /* vigeneretabel.png in Resources */,
+				B20D57FC182566DA006306C2 /* bantuan.plist in Resources */,
+				B2BAE3171825DCFF009BB272 /* Default.png in Resources */,
+				B2BAE31B1825DE01009BB272 /* crypto.png in Resources */,
+				B2BAE31D1825DEBE009BB272 /* logocrypto.png in Resources */,
+				B29BBAF5173FCCA500B7889F /* facebook.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90A899817FE6C3100CF19DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90A89AD17FE6C3100CF19DB /* main.m in Sources */,
+				D90A89B117FE6C3100CF19DB /* AppDelegate.m in Sources */,
+				D90A89BD17FE6C3100CF19DB /* ViewController.m in Sources */,
+				D90A89CD17FE6D6C00CF19DB /* TPKeyboardAvoidingScrollView.m in Sources */,
+				D90A89D617FE830000CF19DB /* EnkripsiCaesarCipherViewController.m in Sources */,
+				D90A89D917FE875400CF19DB /* EnkripsiVigenereViewController.m in Sources */,
+				D90A89DF17FE899600CF19DB /* EnkripsiRsaViewController.m in Sources */,
+				D90A89E217FE8BCB00CF19DB /* DekripsiCaesarCipherViewController.m in Sources */,
+				D90A89E517FE8CF400CF19DB /* DekripsiVigenereViewController.m in Sources */,
+				D90A89E817FE8D6900CF19DB /* DekripsiRsaViewController.m in Sources */,
+				D9DBA736180FB05600EC2046 /* DisplayEnkripsiCaesarCipherViewController.m in Sources */,
+				5BB55F8C181D076B002DD38A /* DisplayDekripsiCaesarCipherViewController.m in Sources */,
+				5BB55F8F181D81C3002DD38A /* DisplayEnkripsiRsaViewController.m in Sources */,
+				5BB55F92181D9831002DD38A /* DisplayDekripsiRsaViewController.m in Sources */,
+				B20D57F7182548EB006306C2 /* DisplayEnkripsiVigenereViewController.m in Sources */,
+				B20D57FA18255BFB006306C2 /* DisplayDekripsiVigenereViewController.m in Sources */,
+				B20D57FF182570A0006306C2 /* BantuanViewController.m in Sources */,
+				B20D580218257482006306C2 /* DetailBantuanViewController.m in Sources */,
+				B278CBCE173EFD8000CD6692 /* SolusiCell.m in Sources */,
+				B278CBD1173EFED100CD6692 /* DetailSolusiViewController.m in Sources */,
+				B29BBAF8173FCD5000B7889F /* TentangKamiViewController.m in Sources */,
+				B29BBAFB173FCE1D00B7889F /* TentangWebsiteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D90A89A917FE6C3100CF19DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90A89AA17FE6C3100CF19DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D90A89B817FE6C3100CF19DB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90A89B917FE6C3100CF19DB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D90A89BE17FE6C3100CF19DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D90A89BF17FE6C3100CF19DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D90A89C117FE6C3100CF19DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simulasi Kriptografi 2/Simulasi Kriptografi 2-Prefix.pch";
+				INFOPLIST_FILE = "Simulasi Kriptografi 2/Simulasi Kriptografi 2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D90A89C217FE6C3100CF19DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simulasi Kriptografi 2/Simulasi Kriptografi 2-Prefix.pch";
+				INFOPLIST_FILE = "Simulasi Kriptografi 2/Simulasi Kriptografi 2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90A899617FE6C3100CF19DB /* Build configuration list for PBXProject "Simulasi Kriptografi 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90A89BE17FE6C3100CF19DB /* Debug */,
+				D90A89BF17FE6C3100CF19DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90A89C017FE6C3100CF19DB /* Build configuration list for PBXNativeTarget "Simulasi Kriptografi 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90A89C117FE6C3100CF19DB /* Debug */,
+				D90A89C217FE6C3100CF19DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90A899317FE6C3100CF19DB /* Project object */;
+}

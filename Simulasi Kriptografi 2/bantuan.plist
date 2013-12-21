@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>kunci</key>
+		<string>Enkripsi dengan caesar cipher</string>
+		<key>penjelasan</key>
+		<string>1. Masuk ke home(simulasi kriptografi)
+2. Pilih enkripsi
+3. Pilih caesar cipher
+4. Masukkan inputan plaintext
+   (plaintext -> text yang mau dienkripsi)
+5. Masukkan inputan jumlah pergeseran
+   (jumlah pergeseran berupa angka)
+6. Lalu tap button 'OK'
+7. Muncul tampilan hasil secara ringkas
+8. Lalu tap button 'Lihat Solusi'
+9. Muncul tampilan solusi secara detail
+        </string>
+	</dict>
+    <dict>
+		<key>kunci</key>
+		<string>Enkripsi dengan vigenere</string>
+		<key>penjelasan</key>
+		<string>1. Masuk ke home(simulasi kriptografi)
+2. Pilih enkripsi
+3. Pilih vigenere
+4. Masukkan inputan plaintext
+   (plaintext -> text yang mau dienkripsi)
+5. Masukkan inputan kunci
+   (kunci berupa inputan karakter)
+6. Lalu tap button 'OK'
+7. Muncul tampilan hasil secara ringkas
+8. Lalu tap button 'Lihat Solusi'
+9. Muncul tampilan solusi secara detail
+   (NOTE: semua inputan berupa karakter)
+        </string>
+	</dict>
+    <dict>
+		<key>kunci</key>
+		<string>Enkripsi dengan RSA</string>
+		<key>penjelasan</key>
+		<string>1. Masuk ke home(simulasi kriptografi)
+2. Pilih enkripsi
+3. Pilih RSA
+4. Masukkan inputan p
+5. Masukkan inputan q
+4. Masukkan inputan e
+   (e harus coprime dengan (p-1)*(q-1))
+5. Masukkan inputan m
+   (m-> message)
+6. Lalu tap button 'OK'
+7. Muncul tampilan solusi
+   (NOTE : semua inputan berupa angka)
+        </string>
+	</dict>
+    <dict>
+		<key>kunci</key>
+		<string>Dekripsi dengan caesar cipher</string>
+		<key>penjelasan</key>
+		<string>1. Masuk ke home(simulasi kriptografi)
+2. Pilih dekripsi
+3. Pilih caesar cipher
+4. Masukkan inputan ciphertext
+   (ciphertext -> text yang mau didekripsi)
+5. Masukkan inputan jumlah pergeseran
+   (jumlah pergeseran berupa angka)
+6. Lalu tap button 'OK'
+7. Muncul tampilan hasil secara ringkas
+8. Lalu tap button 'Lihat Solusi'
+9. Muncul tampilan solusi secara detail
+        </string>
+	</dict>
+    <dict>
+		<key>kunci</key>
+		<string>Dekripsi dengan vigenere</string>
+		<key>penjelasan</key>
+		<string>1. Masuk ke home(simulasi kriptografi)
+2. Pilih dekripsi
+3. Pilih vigenere
+4. Masukkan inputan ciphertext
+   (ciphertext -> text yang mau didekripsi)
+5. Masukkan inputan kunci
+   (kunci berupa inputan karakter)
+6. Lalu tap button 'OK'
+7. Muncul tampilan hasil secara ringkas
+8. Lalu tap button 'Lihat Solusi'
+9. Muncul tampilan solusi secara detail
+   (NOTE: semua inputan berupa karakter)
+
+        </string>
+	</dict>
+    <dict>
+		<key>kunci</key>
+		<string>Dekripsi dengan RSA</string>
+		<key>penjelasan</key>
+		<string>1. Masuk ke home(simulasi kriptografi)
+2. Pilih dekripsi
+3. Pilih RSA
+4. Masukkan inputan p
+5. Masukkan inputan q
+4. Masukkan inputan e
+   (e harus coprime dengan (p-1)*(q-1))
+5. Masukkan inputan c
+   (c-> cipher)
+6. Lalu tap button 'OK'
+7. Muncul tampilan solusi
+   (NOTE : semua inputan berupa angka)
+        </string>
+	</dict>
+</array>
+</plist>
